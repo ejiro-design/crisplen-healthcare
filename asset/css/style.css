@@ -46,4 +46,15 @@ h1{
     list-style-type: none;
 }
 
+.photo{
+    width:100%;
+    background-color: blue;
+    height:40%;
+}
+/* .main-photo{
+    background: url("../images/picture.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
 
