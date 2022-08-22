@@ -17,9 +17,17 @@ body{
     overflow: hidden;
     padding:10px 80px;
     background-color:rgb(1, 75, 75);
-    /* height: 70px; */
     position:sticky;
     top:0px;
+    z-index: 10;
+    display: flex;
+}
+
+.header-left{
+    flex: 1 1 auto;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 70px;
 }
 
 h1{
@@ -36,13 +44,50 @@ h1{
     font-family: Montserrat;
     font-weight: lighter;
 }
+
+header span{
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-left a{
+    text-decoration: none;
+}
+
+.menu{
+    float:right;
+    color: white;
+    font-size: 30px;
+    padding:5px;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+
+.navigation-button{
+    position:fixed;
+    top:10px;
+    right:20px;
+    width:200px;
+    padding:10px 10px;
+    border-radius: 10px;
+    z-index:100;
+    background-color: white;
+    display: none;
+}
+
+.menu:focus + .navigation-button{
+    display:block;
+}
+
 .navigation-button a{
     text-decoration: none;
-    color:white;
-    float:right; 
+    color:black;
     font-size: 80%;
     font-family: 'Montserrat', 'sans-serif';
-    padding: 20px 10px;
+    padding: 10px;
+    display: block;
 }
 ul{
     float:right;
@@ -50,7 +95,7 @@ ul{
 }
 .navigation-button li{
     list-style-type: none;
-    float: left;
+    font-weight: 400;
 }
 
 .container{
@@ -62,4 +107,36 @@ ul{
     height: 100vh;
 }
 
+.welcome-page{
+    display: flex;
+    flex-direction: column;
 
+}
+
+.welcome{
+    padding:40px 80px;
+    background-color: rgb(222, 225, 224);
+}
+
+.welcome h2{
+    font-size: 30px;
+    font-weight:300;
+    font-family: inherit;
+    text-align: center;
+}
+
+.welcome p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+
+    /* order: 4; */
+}
+
+.vacancies{
+    
+}
+
+@media screen {
+    
+}
