@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    border:0;
     box-sizing: border-box;
 }
 
@@ -167,8 +166,33 @@ h5{
 
 }
 
-.social-media{
-    
+
+footer {
+    height: 50px;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 0;
+    top: 90%;
+    left: 0%;
+    right: 0%;
+    background-color: white;
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+}
+
+.social-media i {
+    font-size: 100%;
+    color: #767c6b;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
 }
 
 @media screen {
