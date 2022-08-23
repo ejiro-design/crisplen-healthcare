@@ -44,7 +44,7 @@ h1{
     font-weight: lighter;
 }
 
-header span{
+.header-left span {
     color:yellow;
     font-weight: bold;
     text-decoration: none;
@@ -187,10 +187,14 @@ footer {
     height: 3px;
 }
 
+.social-media>ul {
+    padding-top: 10px;
+}
+
 .social-media i {
-    font-size: 100%;
-    color: #767c6b;
-    padding: 3px;
+    font-size: 120%;
+    color: rgb(1, 75, 75);;
+    padding: 9px;
     margin: 20px;
     text-align: center;
 }
