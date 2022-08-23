@@ -129,8 +129,6 @@ ul{
     font-size: 15px;
     text-align: center;
     padding-top: 10px;
-
-    /* order: 4; */
 }
 
 .welcome-page h4{
@@ -143,15 +141,34 @@ ul{
 .welcome-page ul{
     text-decoration-style: none;
     display: inline-flex;
-    padding:20px 80px;
     cursor: pointer;
+    padding-top:20px;
+   
 }
 
 .welcome-page li{
-    list-style-type:none;
     padding-left:20px;
     padding-right:20px;
-    justify-content: space-around;
+    text-align: center;
+   
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.work p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.social-media{
+    
 }
 
 @media screen {
