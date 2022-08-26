@@ -88,6 +88,7 @@ h1{
     padding: 10px;
     display: block;
 }
+
 ul{
     float:right;
 
@@ -110,11 +111,13 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    height:600px;
 }
 
 .welcome{
     padding:40px 80px;
-    background-color: rgb(222, 225, 224);
 }
 
 .welcome h2{
@@ -131,25 +134,38 @@ ul{
 }
 
 .welcome-page h4{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight:600;
     font-weight: 300;
-    text-align: center;
-    padding-top: 10px;
+    float:left;
+    font-family: 'montserrat' 'bold';
+    height:10%;
+    width: 33%;
 }
 
 .welcome-page ul{
     text-decoration-style: none;
-    display: inline-flex;
     cursor: pointer;
-    padding-top:20px;
-   
+    font-family: 'sans-serif';
+    float: left;
+    background-color: aquamarine;
+    height:50%;
 }
 
 .welcome-page li{
-    padding-left:20px;
-    padding-right:20px;
-    text-align: center;
-   
+    padding-left:5px;
+    text-align: left;
+    list-style-type:none;
+}
+
+.vacancies-border{
+    border:0.1px solid black;
+    width: 100%;
+}
+
+.welcome-border{
+    border:0.1px solid black;
+    width: 100%;
 }
 
 h5{
@@ -165,7 +181,6 @@ h5{
     padding-top: 10px;
 
 }
-
 
 footer {
     height: 50px;
@@ -201,4 +216,8 @@ footer {
 
 @media screen {
     
+}
+
+.contact-details{
+    font-size: 12px;
 }
