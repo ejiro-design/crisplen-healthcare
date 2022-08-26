@@ -139,8 +139,11 @@ ul{
     font-weight: 300;
     float:left;
     font-family: 'montserrat' 'bold';
-    height:10%;
-    width: 33%;
+    width: 23%;
+}
+
+.welcome-page{
+    padding:40px 80px;
 }
 
 .welcome-page ul{
@@ -148,14 +151,15 @@ ul{
     cursor: pointer;
     font-family: 'sans-serif';
     float: left;
-    background-color: aquamarine;
-    height:50%;
+    width:23%;
+    padding-left: 10px;
+    padding-top: -2px;
 }
 
 .welcome-page li{
-    padding-left:5px;
+    padding-top: 5px;
     text-align: left;
-    list-style-type:none;
+    list-style-type: style type circle;
 }
 
 .vacancies-border{
