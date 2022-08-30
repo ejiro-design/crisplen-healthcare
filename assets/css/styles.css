@@ -156,6 +156,8 @@ ul{
 
 .left h4{
     font-size: 25px;
+    font-weight:normal;
+    font-family: inherit;
     text-align: left;
 }
 
@@ -181,6 +183,7 @@ ul{
 
 .centre p{
     font-size: 35px;
+    padding-left: 20px;
 }
 
 .centre span{
@@ -195,7 +198,7 @@ ul{
 }
 
 .center-text-two p{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .alignment-line{
@@ -209,12 +212,14 @@ ul{
 }
 
 .right-heading h5 {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight:normal;
+    font-family: inherit;
     text-align: right;
 }
 
 .right-heading p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
 }
 
@@ -222,13 +227,14 @@ ul{
     margin-top: 40px;
 }
 .right-heading-two h6{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight:normal;
     text-align: right;
 
 }
 
 .right-heading-two p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
 }
 
