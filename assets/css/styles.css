@@ -82,7 +82,7 @@ h1{
     display: none;
 }
 
-.menu:focus + .navigation-button{
+.menu:focus-within .navigation-button{
     display:block;
 }
 
