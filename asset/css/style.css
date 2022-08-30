@@ -134,29 +134,81 @@ ul{
 
 
 #alignment{
-    padding-top: 30px;
-    height:500px;
+    height:300px;
     padding-left:80px;
     padding-right:80px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .left{
-    width:25%;
-    float:left;
-    background-color: blueviolet;
+    padding-top: 30px;
+    width:30%;
+    /* float:left; */
+}
+
+.left h4{
+    font-size: 25px;
+    text-align: left;
+}
+
+.left-side-heading ul{
+    padding-left: 20px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.left-side-heading li{
+    line-height: 25px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .centre{
-    width:25%;
-    margin:0 auto;
-    background-color: blueviolet;
+    padding-top: 30px;
+    width:40%;
+    /* float:left; */
+}
+
+.centre p{
+    font-size: 35px;
+}
+
+.centre span{
+    color:  rgb(4, 163, 17);
 }
 
 .right{
-    /* padding-top: 30px; */
-    width:25%;
-    float:right;
-    background-color: blueviolet;
+    padding-top: 30px;
+    width:30%;
+    /* float:left; */
+    clear: right;
+}
+
+.right-heading h5 {
+    font-size: 20px;
+    text-align: right;
+}
+
+.right-heading p{
+    font-size: 20px;
+    text-align: right;
+}
+
+.right-heading-two{
+    margin-top: 15px;
+}
+.right-heading-two h6{
+    font-size: 20px;
+    text-align: right;
+
+}
+
+.right-heading-two p{
+    font-size: 20px;
+    text-align: right;
 }
 
 footer {
