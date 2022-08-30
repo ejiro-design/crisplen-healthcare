@@ -63,7 +63,7 @@ h1{
 .menu{
     float:right;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     padding:5px;
     cursor: pointer;
     border: 1px solid white;
@@ -149,8 +149,9 @@ ul{
 
 .left{
     padding-top: 30px;
+    padding-bottom: 30px;
     width:30%;
-    /* float:left; */
+    
 }
 
 .left h4{
@@ -174,6 +175,7 @@ ul{
 
 .centre{
     padding-top: 30px;
+    padding-bottom: 30px;
     width:40%;
 }
 
@@ -231,9 +233,11 @@ ul{
 }
 
 .contact-details{
-    height:50px;
+    height:100px;
     padding-left: 80px;
     padding-right:80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contact{
@@ -275,8 +279,4 @@ footer {
 
 @media screen {
     
-}
-
-.contact-details{
-    font-size: 12px;
 }
