@@ -156,7 +156,7 @@ ul{
 
 .left h4{
     font-size: 25px;
-    font-weight:normal;
+    font-weight:bold;
     font-family: inherit;
     text-align: left;
 }
@@ -213,7 +213,7 @@ ul{
 
 .right-heading h5 {
     font-size: 25px;
-    font-weight:normal;
+    font-weight:bold;
     font-family: inherit;
     text-align: right;
 }
@@ -228,7 +228,7 @@ ul{
 }
 .right-heading-two h6{
     font-size: 25px;
-    font-weight:normal;
+    font-weight:bold;
     text-align: right;
 
 }
