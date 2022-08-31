@@ -154,7 +154,6 @@ ul{
     padding-top: 30px;
     padding-bottom: 30px;
     width:30%;
-    
 }
 
 .left h4{
@@ -284,6 +283,33 @@ footer {
     padding: 9px;
     margin: 20px;
     text-align: center;
+}
+
+/* about page section */
+
+#about-us{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about-crisplen{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width:30%;
+    background-color: blueviolet;
+}
+
+.holding-hands-picture{
+    background-color: rgb(255, 226, 80);
+    width: 500px;
+
+}
+
+.holding-hands-picture img{
 }
 
 @media screen {
