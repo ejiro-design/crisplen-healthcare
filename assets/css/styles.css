@@ -297,16 +297,24 @@ footer {
     padding-right: 80px;
 }
 
-.about-us h2, h3, h4, h5{
-    font-size: 25px;
+.about-crisplen h2{
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.about-us h2, h3, h4, h5 {
+    font-size: 22px;
     font-weight:bold;
     text-align: left;
-
 }
 
 .about-crisplen{
     margin-right: 30px;
     padding-bottom: 20px;
+}
+
+.about-crisplen p{
+    padding-top: 10px;
 }
 
 img{
@@ -320,8 +328,8 @@ img{
     padding-bottom: 20px;
 }
 
-.appraoch p{
-    line-height: 30px;
+.approach p{
+    padding-top: 10px;
 }
 
 .value{
@@ -329,9 +337,17 @@ img{
     padding-bottom: 20px;
 }
 
+.value p{
+    padding-top: 10px;
+}
+
 .process{
     margin-right: 30px;
     padding-bottom: 20px;
+}
+
+.process p{
+    padding-top: 10px;
 }
 
 @media screen {
