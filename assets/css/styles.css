@@ -289,27 +289,49 @@ footer {
 
 #about-us{
     display: flex;
-    /* justify-content: center; */
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: center;
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
+.about-us h2, h3, h4, h5{
+    font-size: 25px;
+    font-weight:bold;
+    text-align: left;
+
+}
+
 .about-crisplen{
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    width:30%;
-    background-color: blueviolet;
+    margin-right: 30px;
+    padding-bottom: 20px;
 }
 
-.holding-hands-picture{
-    background-color: rgb(255, 226, 80);
-    width: 500px;
-
+img{
+    width:100%;
+    height:auto;
 }
 
-.holding-hands-picture img{
+.appraoch{
+    padding-top: 20px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+.appraoch p{
+    line-height: 30px;
+}
+
+.value{
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+.process{
+    margin-right: 30px;
+    padding-bottom: 20px;
 }
 
 @media screen {
