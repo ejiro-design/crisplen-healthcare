@@ -287,6 +287,30 @@ footer {
 
 /* about page section */
 
+#main-about-heading{
+    background-color: rgb(50, 73, 3);
+    background-image: url('../images/health.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100vh;
+    padding-top: 30px;
+    padding-left:80px;
+    padding-right:80px;
+    display:flex;
+    justify-content: center;
+}
+
+#main-about-heading h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#main-about-heading p{
+    text-align: center;
+
+}
+
 #about-us{
     display: flex;
     flex-basis: 0;
@@ -297,12 +321,12 @@ footer {
     padding-right: 80px;
 }
 
-.about-crisplen h2{
+.about-crisplen h3{
     font-size: 22px;
     font-weight:bold;
 }
 
-.about-us h2, h3, h4, h5 {
+.about-us h3, h4, h5, h6{
     font-size: 22px;
     font-weight:bold;
     text-align: left;
@@ -315,6 +339,7 @@ footer {
 
 .about-crisplen p{
     padding-top: 10px;
+    line-height: 25px;
 }
 
 img{
@@ -330,6 +355,7 @@ img{
 
 .approach p{
     padding-top: 10px;
+    line-height: 25px;
 }
 
 .value{
@@ -339,6 +365,7 @@ img{
 
 .value p{
     padding-top: 10px;
+    line-height: 25px;
 }
 
 .process{
@@ -348,6 +375,7 @@ img{
 
 .process p{
     padding-top: 10px;
+    line-height: 25px;
 }
 
 @media screen {
