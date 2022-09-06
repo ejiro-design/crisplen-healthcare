@@ -42,8 +42,15 @@ h1{
     width:200px;
 }
 
-.register{
+.quick-link a{
     color: yellow;
+    margin-right: 20px;
+}
+
+.quick-link a:last-child{
+    color:white;
+    font-size: 20px;
+}
 
 }
 
