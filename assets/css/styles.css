@@ -45,13 +45,12 @@ h1{
 .quick-link a{
     color: yellow;
     margin-right: 20px;
+    font-size: 20px;
 }
 
 .quick-link a:last-child{
     color:white;
     font-size: 20px;
-}
-
 }
 
 .header-left span {
@@ -313,12 +312,15 @@ footer {
 
 #about-us{
     display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
-    justify-content: center;
     padding-top: 30px;
     padding-left: 80px;
     padding-right: 80px;
+}
+
+#about-us div {
+    flex-basis:25%;
+    padding:10px;
+
 }
 
 .about-crisplen h3{
@@ -333,7 +335,6 @@ footer {
 }
 
 .about-crisplen{
-    margin-right: 30px;
     padding-bottom: 20px;
 }
 
@@ -349,7 +350,6 @@ img{
 
 .appraoch{
     padding-top: 20px;
-    margin-right: 30px;
     padding-bottom: 20px;
 }
 
@@ -359,7 +359,6 @@ img{
 }
 
 .value{
-    margin-right: 30px;
     padding-bottom: 20px;
 }
 
@@ -369,7 +368,6 @@ img{
 }
 
 .process{
-    margin-right: 30px;
     padding-bottom: 20px;
 }
 
