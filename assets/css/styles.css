@@ -407,6 +407,38 @@ img{
     text-transform: uppercase;
 }
 
+#contact-us{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+
+}
+
+#contact-us h3{
+    font-size: 27px;
+    font-weight: 100px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#contact-us h4, h5{
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#contact-us p{
+    font-size: 14px;
+    font-weight: 100px;
+    line-height: 30px;
+}
+
+#contact-us i{
+    font-size: 20px;
+
+}
+
+
 @media screen {
     
 }
