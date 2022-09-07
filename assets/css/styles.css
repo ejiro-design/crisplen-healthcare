@@ -310,6 +310,13 @@ footer {
     color:rgb(250, 249, 249);
 }
 
+#main-about-heading p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
 #about-us{
     display: flex;
     padding-top: 30px;
@@ -358,6 +365,14 @@ img{
     line-height: 25px;
 }
 
+.approach p:nth-child(5){
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
 .value{
     padding-bottom: 20px;
 }
@@ -367,13 +382,29 @@ img{
     line-height: 25px;
 }
 
-.process{
+.value p:nth-child(1){
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.team{
     padding-bottom: 20px;
 }
 
-.process p{
+.team p{
     padding-top: 10px;
     line-height: 25px;
+}
+
+.team p:nth-child(5){
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
 }
 
 @media screen {
