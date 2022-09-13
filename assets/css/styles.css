@@ -432,7 +432,6 @@ img{
 
 #contact-us i{
     font-size: 20px;
-
 }
 
 #contact-us div:nth-child(2){
@@ -503,7 +502,6 @@ img{
 #steps-to-sign p{
    
 }
-
 
 @media screen and (max-width: 1024px){
     .header, #alignment, .contact-details{
