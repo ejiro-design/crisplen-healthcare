@@ -558,4 +558,19 @@ img{
     margin-right: 40px;
 }
 
+#steps-to-sign {
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#contact-us{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#contact-us iframe{
+   
+    height: fit-content;
+}
 }
