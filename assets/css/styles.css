@@ -431,7 +431,7 @@ img{
 }
 
 #contact-us i{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #contact-us div:nth-child(2){
@@ -499,15 +499,12 @@ img{
     line-height: 23px;
 }
 
-#steps-to-sign p{
-   
-}
-
 @media screen and (max-width: 1024px){
     .header, #alignment, .contact-details{
         padding-left: 40px;
         padding-right: 40px;
     }
+    
 }
 
 
@@ -566,10 +563,22 @@ img{
 #contact-us{
     padding-left: 40px;
     padding-right: 40px;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#contact-us div:nth-child(2) {
+    margin-left: 0;
 }
 
 #contact-us iframe{
-   
+    width: 240px;
     height: fit-content;
+    background-color: blue;
+}
+
+.contact-info{
+    display: block;
 }
 }
