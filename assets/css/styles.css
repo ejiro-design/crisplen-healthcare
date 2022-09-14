@@ -430,6 +430,15 @@ img{
     line-height: 30px;
 }
 
+#contact-us a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-us .form{
+    display: flex;
+}
+
 #contact-us i{
     font-size: 14px;
 }
@@ -442,6 +451,7 @@ img{
     position: sticky;
     top: 130px;
     height: fit-content;
+    margin-bottom: 30px;
 }
 
 /* work with us page */
@@ -499,12 +509,17 @@ img{
     line-height: 23px;
 }
 
+@media screen and (max-width: 1029px){
+   #contact-us{
+    display: block;
+    } 
+}
+
 @media screen and (max-width: 1024px){
     .header, #alignment, .contact-details{
         padding-left: 40px;
         padding-right: 40px;
-    }
-    
+    } 
 }
 
 
@@ -563,7 +578,6 @@ img{
 #contact-us{
     padding-left: 40px;
     padding-right: 40px;
-    display: block;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -572,13 +586,5 @@ img{
     margin-left: 0;
 }
 
-#contact-us iframe{
-    width: 240px;
-    height: fit-content;
-    background-color: blue;
-}
 
-.contact-info{
-    display: block;
-}
 }
