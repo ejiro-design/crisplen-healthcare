@@ -291,7 +291,7 @@ footer {
 
 #main-about-heading{
     background-color: rgb(50, 73, 3);
-    background-image: url('../images/nathan-anderson.jpg');
+    background-image: url('../assets/images/nathan-anderson.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
