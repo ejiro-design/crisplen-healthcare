@@ -111,7 +111,7 @@ h1{
 
 .container{
     background-color: rgb(50, 73, 3);
-    background-image: url('../images/josh-appel.jpg');
+    background-image: url('../images/caring-elderly.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
@@ -412,7 +412,7 @@ img{
 /* contact /form page */
 #contact-heading{
     background-color: rgb(50, 73, 3);
-    background-image: url('../images/caring-elderly.jpg');
+    background-image: url('../images/josh-appel.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
