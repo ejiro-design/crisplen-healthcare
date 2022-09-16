@@ -250,6 +250,11 @@ h1{
     text-align: center;
 }
 
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     height: 50px;
 }
