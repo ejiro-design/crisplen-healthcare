@@ -47,7 +47,7 @@ h1{
     font-size: 20px;
 }
 
-.quick-link a:last-child{
+.quick-link a:not(:first-child){
     color:white;
     font-size: 20px;
 }
